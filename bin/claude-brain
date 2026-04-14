@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+/**
+ * Claude Brain CLI (binary wrapper)
+ */
+
+const path = require('path');
+
+// Add lib directory to require path
+const libPath = path.join(path.dirname(__dirname), 'lib');
+require('module').Module._initPaths();
+
+// Load and run CLI
+require(path.join(libPath, 'brain-cli.js'));
