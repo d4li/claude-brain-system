@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+logs/*.log
+*.log
+
+# State & Channels (volatile)
+channels/*.msg
+state/*.json
+tasks/*.json
+sessions/*
+memory/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

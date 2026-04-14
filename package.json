@@ -1,0 +1,28 @@
+{
+  "name": "claude-brain",
+  "version": "1.0.0",
+  "description": "Brain System for multi-terminal Claude Code orchestration",
+  "main": "lib/brain/index.js",
+  "bin": {
+    "claude-brain": "./bin/claude-brain"
+  },
+  "scripts": {
+    "daemon": "node bin/claude-brain daemon start",
+    "daemon:stop": "node bin/claude-brain daemon stop",
+    "daemon:status": "node bin/claude-brain daemon status",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "claude",
+    "brain",
+    "orchestration",
+    "distributed",
+    "tasks",
+    "multi-terminal"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
