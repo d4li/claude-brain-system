@@ -26,3 +26,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Development & notes (internal)
+PLANO_COMPLETO.md
+ctx-bkp/
+NOTES.md
